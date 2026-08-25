@@ -1,0 +1,39 @@
+.hero {
+  background-image: url("img/portada.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.container-info {
+  position: relative;
+  top: 120px;
+}
+
+.title {
+  color: ghostwhite;
+}
+
+.subtitle {
+  color: whitesmoke;
+}
+
+.info {
+  color: whitesmoke;
+}
+
+.navbar-item img {
+  max-height: 40px;
+}
+
+.navbar-brand {
+    width: 180px;
+}
+
+.logo {
+    width: 150px;
+    max-height: none;
+}
+
+.button.is-primary {
+    background-color: #c99a8c;
+}

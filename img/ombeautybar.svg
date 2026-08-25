@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="150 35 600 190" role="img" aria-labelledby="title desc">
+  <title id="title">Ombeautybar — Nail Studio</title>
+  <desc id="desc">Logotipo de Ombeautybar con subtítulo Nail Studio.</desc>
+  <g fill="#fff">
+    <text x="450" y="112" text-anchor="middle" font-family="Brush Script MT, Segoe Script, Lucida Handwriting, cursive" font-size="94" font-style="italic" font-weight="400">Ombeautybar</text>
+    <g transform="translate(450 157)">
+      <line x1="-205" y1="0" x2="-125" y2="0" stroke="#fff" stroke-width="2"/>
+      <line x1="125" y1="0" x2="205" y2="0" stroke="#fff" stroke-width="2"/>
+      <text x="0" y="10" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="30" font-weight="400" letter-spacing="12">NAIL STUDIO</text>
+    </g>
+  </g>
+</svg>
