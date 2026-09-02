@@ -6,26 +6,28 @@
     <title>Ombeautybar</title>
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css"
+      integrity="sha512-YQlbvfX5C6Ym6fTUSZ9GZpyB3F92hmQAZTO5YjciedwAaGRI9ccNs4iw2QTCJiSPheUQZomZKHQtuwbHkA9lgw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
     />
     <link rel="icon" href="./img/favicon.svg" />
     <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.js"
+      integrity="sha512-vZGsugWaSqQZuW8N5Z3ild7Tk8NqiZjKffeIQGpnnIs6g7HVZaFZjlLKPIw1qDsrQ5KAxAGfBinglQWu6i/8DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
-    <section class="hero is-medium">
-      <div class="hero-body">
-        <div class="container-info">
-          <p class="title">Ombeautybar</p>
-          <p class="subtitle">Nail Studio</p>
-          <p class="info">⭐ 4.9 (250 reseñas)</p>
-          <p class="info">📍 Zakia, Querétaro</p>
-          <p class="info">🕐 Abierto hoy 10:00 - 20:00</p>
-        </div>
-      </div>
-    </section>
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item">
+        <a>
           <img
             class="logo"
             src="./img/ombeautybar.svg"
@@ -55,17 +57,49 @@
           <a class="navbar-item">Nosotros</a>
           <a class="navbar-item">Agendar cita</a>
         </div>
-      </div>
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-primary">
-              <strong>Iniciar sesión</strong>
-            </a>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a class="button is-primary"> Iniciar sesión </a>
           </div>
         </div>
       </div>
     </nav>
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <img src="./img/tienda.png" />
+          </li>
+          <li class="glide__slide">
+            <img src="./img/profesional.png" />
+          </li>
+          <li class="glide__slide">
+            <img src="./img/portada.png" />
+          </li>
+          <li class="glide__slide">
+            <img src="./img/profesionales.png" />
+          </li>
+        </ul>
+      </div>
+      <div class="glide__arrows" data-glide-el="controls">
+        <button
+          id="btn_prev"
+          class="glide__arrow glide__arrow--left"
+          data-glide-dir="<"
+        >
+          prev
+        </button>
+        <button
+          id="btn_nxt"
+          class="glide__arrow glide__arrow--right"
+          data-glide-dir=">"
+        >
+          next
+        </button>
+      </div>
+    </div>
+
     <div class="container">
       <h2 class="title servicios">Nuestros servicios</h2>
       <p class="subtitle">
@@ -142,5 +176,11 @@
         </div>
       </div>
     </div>
+    <div class="container gallery">
+      <h2 class="title">Galería</h2>
+
+      <p class="subtitle">Mira algunos de nuestros trabajos.</p>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
