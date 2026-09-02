@@ -26,14 +26,22 @@
 }
 
 .navbar-brand {
-    width: 180px;
+  width: 180px;
 }
 
 .logo {
-    width: 150px;
-    max-height: none;
+  width: 150px;
+  max-height: none;
 }
 
 .button.is-primary {
-    background-color: #c99a8c;
+  background-color: #c99a8c;
+}
+
+.columns.servicios {
+  margin-top: 30px;
+}
+
+.title.servicios {
+  margin-bottom: 20px;
 }
