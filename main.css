@@ -8,15 +8,10 @@ body {
   background-color: black;
 }
 
-.navbar-menu {
-  margin-left: auto;
-}
-
 .navbar-brand {
   position: absolute;
-  left: 50%;
+  left: 43%;
   top: 20%;
-  transform: translate(-50%, 0);
 }
 
 .navbar-item {
@@ -29,30 +24,6 @@ body {
 
 .button.is-primary {
   background-color: #c99a8c;
-}
-
-.servicios {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.galeria {
-  text-align: center;
-  margin-top: 40px;
-}
-
-#btn_prev {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translate(0, -50%);
-}
-
-#btn_nxt {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translate(0, -50%);
 }
 
 .glide__slide img {
@@ -69,8 +40,14 @@ body {
   opacity: 0;
 }
 
+.servicios {
+  text-align: center;
+  margin-top: 40px;
+}
+
 .galeria {
-  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .galeria img {
@@ -81,9 +58,7 @@ body {
 }
 
 .nosotros {
-  padding: 40px 0;
   margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 .nosotros img {
@@ -106,7 +81,6 @@ body {
 
 .lealtad {
   margin-top: 40px;
-  text-align: center;
 }
 
 .lealtad img {
@@ -118,16 +92,20 @@ body {
 .footer {
   background-color: black;
   color: ghostwhite;
-  padding: 50px;
 }
 
 .footer-logo {
-  width: 180px;
+  width: 120px;
 }
 
 .footer-columns {
-  align-items: center;
   text-align: center;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .redes {
